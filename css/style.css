@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  margin-right: 25px;
+}
+
+.active {
+  color: #bc8c46;
+}
+
+/* Start header */
+
+header {
+  background-color: #212529;
+  padding: 20px 0;
+  height: 25px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+header a:hover {
+  color: #bc8c46;
+}
+
+.btright {
+  float: right;
+  background-color: #bc8c46;
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: -5px;
+}
+
+.btright:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+/* End header  */
+
+/* start section  */
+
+section {
+  text-align: center;
+  padding: 25px 0;
+  height: 500px;
+}
+
+section h3,
+.sec2 h3 {
+  font-size: 40px;
+  color: #444444;
+  margin-bottom: 50px;
+}
+
+section h6,
+.sec2 h6 {
+  font-size: 16px;
+  opacity: 0.3;
+}
+
+.chefs {
+  width: 31%;
+  float: left;
+  margin-right: 20px;
+}
+
+.chefs h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.chefs img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.chefs i {
+  color: #bc8c46;
+  margin-top: 15px;
+  font-size: 18px;
+  margin-right: -10px;
+}
+
+.chefs i:hover {
+  color: #886433;
+}
+
+/* End section  */
+
+/* start section 2 */
+
+.sec2 {
+  background-image: url(../images/style-3.png);
+  padding: 60px;
+  height: 320px;
+  text-align: center;
+}
+
+.clients {
+  width: 28%;
+  float: left;
+  border: 1px solid #dfdfdf;
+  margin-right: 20px;
+  padding: 20px 15px 30px;
+  height: 100px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.clients img {
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+.para {
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+.para p {
+  color: #adb5bd;
+}
+
+.para2 {
+  opacity: 0.5;
+}
+
+/* end section 2 */
+
+/* start section 3 */
+
+.sec3 {
+  padding: 160px 0;
+}
+
+.sec3 img {
+  float: left;
+  border-radius: 5px;
+}
+
+.sec3 form {
+  float: right;
+  width: 49%;
+  padding-top: 10px;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+.sec3 form input {
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+  padding-left: 8px;
+}
+
+.sec3 .submit {
+  margin-top: -1px;
+  background-color: #bc8c4c;
+  display: block;
+  border: 1px solid #bc8c4c;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sec3 p {
+  float: left;
+  opacity: 0.5;
+}
+
+.sec3 a {
+  color: #bc8c4c;
+}
+
+.sec3 a:hover {
+  color: #69400a;
+}
+
+/* End section 3 */
+
+footer {
+  background-color: #212529;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer img {
+  float: left;
+  padding-top: 15px;
+}
+
+footer .links a {
+  color: #bdbebf;
+}
+
+footer .links a:hover {
+  color: white;
+}
+
+.links {
+  float: right;
+  margin-top: 50px;
+}
+
+.foots {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.foots p,
+.footright {
+  margin-top: 20px;
+}
+
+footer p {
+  color: white;
+  opacity: 0.7;
+  float: left;
+}
+
+footer p a {
+  opacity: 0.5;
+  margin-right: 5px;
+}
+
+footer p a:hover {
+  opacity: 0.9;
+  margin-right: 5px;
+}
+
+.footright {
+  float: right;
+}
+
+.footright a {
+  opacity: 0.5;
+  margin-right: 20px;
+}
+
+.footright a:hover {
+  opacity: 1;
+}
